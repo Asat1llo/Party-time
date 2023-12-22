@@ -1,0 +1,250 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    display: inline-block;
+}
+
+span {
+    display: inline-block;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    width: 1249px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+/* ======================================header================================= */
+
+.header__section {
+    background: var(--webthemez_com_demo_party-event-free-html-website-template__1349x627_default-Ebony, #09040C);
+    box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
+}
+
+.header__wrraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+}
+
+.header__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.header__link {
+    margin-left: 5px;
+}
+
+.header__link__select {
+    color: rgba(159, 106, 185, 1);
+    font-family: 'Raleway' sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+.header__link__select:hover {
+    color: rgba(245, 12, 139, 1);
+}
+
+
+/* ==============================main=========================== */
+
+.main__section {
+    background-image: url(./img/main_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--webthemez_com_demo_party-event-free-html-website-template__1349x627_default-Ebony, #09040C);
+    box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
+}
+
+.main__wrraper {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 191.09px 0px 191.11px 80px;
+}
+
+.main__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 30px;
+}
+
+.main__container__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.main__title {
+    font-family: sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 76.8px;
+    text-transform: uppercase;
+    background: var(--webthemez_com_demo_party-event-free-html-website-template__1349x627_default-Linear-Caribbean-Green-Amaranth, linear-gradient(0deg, #FFC08A 0%, #E91E63 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main__text {
+    color: var(--webthemez_com_demo_party-event-free-html-website-template__1349x627_default-Regal-Blue, #FF377B);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28.8px;
+}
+
+.main__btn {
+    padding: 11px 34px 12px 34px;
+    border-radius: 2px;
+    border: 2px solid var(--webthemez_com_demo_party-event-free-html-website-template__1349x627_default-Regal-Blue, #FF377B);
+    color: var(--webthemez_com_demo_party-event-free-html-website-template__1349x627_default-Regal-Blue, #FF377B);
+    font-size: 15px;
+    font-style: normal;
+    background-color: transparent;
+    font-weight: 700;
+    line-height: 22.5px;
+    letter-spacing: 1px;
+}
+
+/* =====================================work================================== */
+.work__section {
+    background-color: #280045;
+}
+
+.work__wrraper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 60px 0px 10px 0px;
+}
+
+.work__containers_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+}
+
+.work__title {
+    color: var(--webthemez_com_demo_party-event-free-html-website-template__1349x627_default-Amaranth, #E91E63);
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38.4px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    border-bottom: 2px solid var(--webthemez_com_demo_party-event-free-html-website-template__1349x627_default-Amaranth, #E91E63);
+    transform: translate(-130px);
+    transition: 0.3s linear;
+}
+
+.active__title{
+    transform: translate(0px);
+}
+
+.work__lorem {
+    max-width: 1110px;
+    color: var(--webthemez_com_demo_party-event-free-html-website-template__1349x627_default-East-Side, #C393CB);
+    text-align: center;
+    font-family: 'Open Sans' sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+.work__containers_2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.work__containers_items_1,.work__containers_items_2,.work__containers_items_3 {
+    padding: 90px 40px 40px 40px;
+    border-radius: 25px;
+    position: relative;
+    z-index: 1;
+    background: var(--webthemez_com_demo_party-event-free-html-website-template__1349x627_default-Nero, #FFF);
+    transform: translate(110px);
+    transition: 0.5s linear;
+}
+
+.active__work_container_1{
+    transform: translate(0px);
+}
+
+.work__containers_items_rol_1,.work__containers_items_rol_2,.work__containers_items_rol_3 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-radius: 40px 190px 40px 380px;
+    background-color: var(--webthemez_com_demo_party-event-free-html-website-template__1349x627_default-Regal-Blue, #FF377B);
+    width: 50px;
+    height: 50px;
+    transition: 0.3s ease;
+}
+
+.active__rol{
+    width: 350px;
+    height: 245px;
+    background-color: var(--webthemez_com_demo_party-event-free-html-website-template__1349x627_default-Regal-Blue, #FF377B);
+    border-radius: 25px;
+    z-index: -2;
+}
+
+
+.work__containeres__items__about_text {
+    max-width: 270px;
+    color: var(--webthemez_com_demo_party-event-free-html-website-template__1349x627_default-Gray, #838383);
+    font-family: 'Open Sans' sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
